@@ -16,7 +16,6 @@
   ],
   "require": {
     "php": ">=8.0",
-    "symfony/workflow": "^v5.2.0",
     "api-platform/core": "^v2.6.0"
   },
   "autoload": {
