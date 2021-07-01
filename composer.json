@@ -1,0 +1,28 @@
+{
+  "name": "imaximius/api-platform-elastic-filters-bundle",
+  "type": "symfony-bundle",
+  "description": "Provides an additional Elasticsearch filters for API Platform",
+  "keywords": [
+    "Elasticsearch",
+    "Filters",
+    "API Platform Workflow"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksym Churkin",
+      "email": "imaximius@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "symfony/workflow": "^v5.2.0",
+    "api-platform/core": "^v2.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Imaximius\\ElasticFilterBundle\\": "src"
+    },
+    "exclude-from-classmap": ["features/", "tests/"]
+  }
+}
