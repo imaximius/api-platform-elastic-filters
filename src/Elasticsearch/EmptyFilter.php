@@ -2,7 +2,7 @@
 
 namespace Imaximius\ElasticFilterBundle\Elasticsearch;
 
-use App\Filter\Abstracts\AbstractSearchFilter;
+use Imaximius\ElasticFilterBundle\Abstracts\AbstractSearchFilter;
 
 /**
  * Class EmptyFilter

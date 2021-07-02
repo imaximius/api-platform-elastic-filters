@@ -9,7 +9,7 @@ use ApiPlatform\Core\Bridge\Elasticsearch\Api\IdentifierExtractorInterface;
 use ApiPlatform\Core\Exception\InvalidArgumentException;
 use ApiPlatform\Core\Metadata\Property\Factory\PropertyMetadataFactoryInterface;
 use ApiPlatform\Core\Metadata\Property\Factory\PropertyNameCollectionFactoryInterface;
-use App\Filter\Abstracts\AbstractSearchFilter;
+use Imaximius\ElasticFilterBundle\Abstracts\AbstractSearchFilter;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
 use Symfony\Component\Serializer\NameConverter\NameConverterInterface;
