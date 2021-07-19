@@ -115,7 +115,7 @@ abstract class AbstractFilter implements FilterInterface
                 return $noop;
             }
 
-            if (!empty($type->getClassName())) {
+            if (!empty($type->getClassName()) && empty($type->getCollectionValueType())) {
                 $className = $type->getClassName();
             } elseif (!empty($type->getCollectionValueType())) {
                 $className = $type->getCollectionValueType()->getClassName();
